@@ -1,6 +1,6 @@
 ---
 title: Equanimous
-date: "2021-07-11"
+date: "2021-11-11"
 tags: [SoggyInkGames,balanced,water,fire]
 description: Elevating in this saturated environment, soggy from the waves, learning with every failure and from the ashes WE RISE
 ---
