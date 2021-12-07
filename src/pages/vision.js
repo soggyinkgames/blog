@@ -64,7 +64,7 @@ const indexQuery = graphql`
       }
     }
     benchAccounting: file(
-      relativePath: { eq: "SoggyInkLogoM.png" }
+      relativePath: { eq: "soggy-ink-logo.png" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
