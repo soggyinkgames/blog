@@ -1,8 +1,8 @@
 ---
 title: Soggy Ink
 date: "2021-11-11"
-thumbnail: ./SoggyInkLogoM.png
-description: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+thumbnail: ./soggy-ink.png
+description: Elevating in this saturated environment, soggy from the waves, learning with every failure and from the ashes WE RISE
 ---
 
 ### Impossible is nothing [Anaizing](http://soggyinkgames.com)
