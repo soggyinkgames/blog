@@ -33,7 +33,7 @@ const Layout = props => {
                 <Link to={`/vision`}>Vision</Link>
               </li>
               <li className="nav-whoarewe" role="menuitem">
-                <Link to={`./bio`}>Who are we</Link>
+                <Link to={`/bio`}>Who are we</Link>
               </li>
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
@@ -94,6 +94,9 @@ const Layout = props => {
           </div>
         </div>
       </header>
+      {/* <div className="site-face transition-fade">
+        Add unity face here 
+      </div> */}
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}

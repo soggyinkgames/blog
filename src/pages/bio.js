@@ -21,11 +21,33 @@ function Bio() {
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
               imgStyle={{
-                borderRadius: `50%`,
+                borderRadius: `5%`,
+                width: '100vw',
+              }}
+            />
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt={author}
+              imgStyle={{
+                borderRadius: `5%`,
+              }}
+            />
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt={author}
+              imgStyle={{
+                borderRadius: `5%`,
+              }}
+            />
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt={author}
+              imgStyle={{
+                borderRadius: `5%`,
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Osaka
+              Written by <strong>{author}</strong> who lives and works in Sydney
               building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
@@ -41,9 +63,9 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+    avatar: file(absolutePath: { regex: "/soggy-ink.png/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
+        fixed(width: 500, height: 350) {
           ...GatsbyImageSharpFixed
         }
       }
