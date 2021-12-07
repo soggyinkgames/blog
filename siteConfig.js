@@ -1,10 +1,10 @@
 module.exports = {
-  name: "London After Midnight",
-  shortName: "LAM",
+  name: "Soggy Ink Games",
+  shortName: "SIG",
   description:
-    "A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery",
-  url: "https://gatsby-lam.weensy.co", // Domain of your site without prefix!
+    "...Failure does not mean GAME OVER, it means try again with EXPERIENCE",
+  url: "https://soggyinkgames.com",
   prefix: "/",
-  author: "weensykim",
-  twitter: "",
+  author: "Soggy Ink Games",
+  twitter: "@soggyinkgames",
 }

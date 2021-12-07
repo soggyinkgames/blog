@@ -29,15 +29,18 @@ const Layout = props => {
               {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
               </li> */}
-              <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+              <li className="nav-vision" role="menuitem">
+                <Link to={`/vision`}>Vision</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              <li className="nav-whoarewe" role="menuitem">
+                <Link to={`/bio`}>Who are we</Link>
+              </li>
+              {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li>
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="site-head-center">
@@ -48,41 +51,52 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
+                href="https://github.com/soggyinkgames"
                 title="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 GitHub
               </a>
+              <a
+                href="https://twitter.com/SoggyInkGames"
+                title="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+              <a
+                href="https://codepen.io/soggyinkgames"
+                title="Codepen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Codepen
+              </a>
+              <a
+                href="https://www.instagram.com/soggyinkgames/"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+              {/* <Link
+                to={`/rss.xml`}
+                title="RSS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RSS
+              </Link> */}
             </div>
           </div>
         </div>
       </header>
+      {/* <div className="site-face transition-fade">
+        Add unity face here 
+      </div> */}
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
