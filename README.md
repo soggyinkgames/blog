@@ -41,8 +41,10 @@ Welcome to the blog- Impossible is nothing.
 
 ![Octopus logo, broken tv animation background](content/assets/SoggyInkGamesGif.gif)
 
+**Demo: https://soggyinkgames.com**
 
-### Thanks to...
+
+#### Thanks to...
 A custom, image-centric theme for Gatsby. Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
 
 **Based on [London](https://github.com/ImedAdel/gatsby-london) for Gatsby**

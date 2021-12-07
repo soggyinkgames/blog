@@ -11,14 +11,14 @@ Lets say we are walking around our world.
 #### Declaration
 Moves the transform by x along the x axis, y along the y axis, and z along the z axis.
 
-```c#
+```c
 public void Translate(float x, float y, float z, Space relativeTo = Space.Self);
 ```
 If `relativeTo` is left out or set to Space.Self the movement is applied relative to the transform's local axes. (the x, y and z axes shown when selecting the object inside the Scene View.) If relativeTo is Space.World the movement is applied relative to the world coordinate system.
 
 for example if we are moving in VR land by holding our joysticks and moving them up and down, simulating running movement and we only change the value on the z axis with no forth arg aka relativeTo. we would be moving forward aka along the z axis, not relative to the space (this works, but we might want more control)
 
-```c#
+```c
 public Transform leftAnchor;
 public Transform rightAnchor;
 bool LeftControllerIsOnTop;

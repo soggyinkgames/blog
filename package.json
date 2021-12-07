@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-london-after-midnight",
-  "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
-  "version": "1.0.2",
-  "author": "weensykim <hello@weensy.co> (https://weensy.co)",
+  "name": "soggy-ink-games-blog",
+  "private": false,
+  "description": "An awesome blog about game development",
+  "version": "1.0.0",
+  "author": "anaizing",
   "bugs": {
     "url": "https://github.com/weensykim/gatsby-london-after-midnight/issues"
   },
