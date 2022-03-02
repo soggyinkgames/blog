@@ -26,6 +26,6 @@ Welcome to the blog- Impossible is nothing.
 
 > See the [Soggy Ink Games](https://soggyinkgames.com) for more information.
 
-### Impossible is nothing [Anaizing](http://soggyinkgames.com)
+### Impossible is nothing [Anaizing](https://soggyinkgames.com)
 
 Its soggy in here...
