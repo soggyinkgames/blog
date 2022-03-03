@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-import SoggyInkGamesGif from "../../content/assets/SoggyInkGamesGif.gif"
+import vrPlayer1sig from "../../content/assets/vrPlayer1sig.gif"
 
 const VisionPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
@@ -27,18 +27,15 @@ const VisionPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="vision">
-            Elevating in this saturated environment, soggy from the waves,
-            learning with every failure and from the ashes WE RISE
-          </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <h2 id="vision">Our Vision</h2>
+          {/* <figure className="kg-card kg-image-card kg-width-full">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
             <figcaption>Image By Anaizing Design</figcaption>
-          </figure>
-          <h3 id="vision">Vision</h3>
+          </figure> */}
+          {/* <h3 id="vision">Vision</h3> */}
           <p>
             It all starts with an idea. It's a big idea, so to get to the WHAT I
             will first break down the HOW into actionable steps, to be repeated
@@ -59,7 +56,7 @@ const VisionPage = ({ data }, location) => {
           <br></br>
           <br></br>
           <img
-            src={SoggyInkGamesGif}
+            src={vrPlayer1sig}
             alt="soggy ink logo with wet ink in the background"
             style={{ margin: "50px" }}
           ></img>
