@@ -14,12 +14,22 @@ const VisionPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="Vision" keywords={[`blog`, `soggy-ink-games`, `javascript`, `react`, 'soggy ink games']} />
+      <SEO
+        title="Vision"
+        keywords={[
+          `blog`,
+          `soggy-ink-games`,
+          `javascript`,
+          `react`,
+          "soggy ink games",
+        ]}
+      />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="vision">
-            Elevating in this saturated environment, soggy from the waves, learning with every failure and from the ashes WE RISE
+            Elevating in this saturated environment, soggy from the waves,
+            learning with every failure and from the ashes WE RISE
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
@@ -30,26 +40,29 @@ const VisionPage = ({ data }, location) => {
           </figure>
           <h3 id="vision">Vision</h3>
           <p>
-            It all starts with an idea. It's a big idea, so to get to the WHAT I will first break  down the HOW into actionable steps, to be repeated and perfected.
+            It all starts with an idea. It's a big idea, so to get to the WHAT I
+            will first break down the HOW into actionable steps, to be repeated
+            and perfected.
           </p>
           <p>
-            The WHY is easy, innovation, progress, equality, to build, create and engineer something that will help people and HAVE FUN doing it.
+            The WHY is easy, innovation, progress, equality, to build, create
+            and engineer something that will help people and HAVE FUN doing it.
             The path to actualize that dream starts here.
           </p>
-          <p>
-            The WHAT?
-          </p>
-          <p>
-            Absolutely
-          </p>
-          <br></br> 
+          <p>The WHAT?</p>
+          <p>Absolutely</p>
           <br></br>
           <br></br>
-          <br></br> 
           <br></br>
           <br></br>
-          <br></br> 
-          <img src={SoggyInkGamesGif} alt="soggy ink logo with wet ink in the background" style={{margin: '50px'}} ></img>
+          <br></br>
+          <br></br>
+          <br></br>
+          <img
+            src={SoggyInkGamesGif}
+            alt="soggy ink logo with wet ink in the background"
+            style={{ margin: "50px" }}
+          ></img>
         </div>
       </article>
     </Layout>
@@ -63,9 +76,7 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "soggy-ink-logo.png" }
-    ) {
+    benchAccounting: file(relativePath: { eq: "soggy-ink.png" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid

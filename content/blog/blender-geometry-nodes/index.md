@@ -1,8 +1,8 @@
 ---
 title: Blender Geometry Nodes
 date: "2019-05-05"
-thumbnail: ./soggyinkpinkblue.jpg
+thumbnail: ../../assets/soggyinkpinkblue.jpg
 description: Elevating in this saturated environment, soggy from the waves, learning with every failure and from the ashes WE RISE
 ---
 
-![Clean lines](./clem-onojeghuo-207792-unsplash.jp)
+![Decorative 3d cubes](../../assets/cubes.jpg)

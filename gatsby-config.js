@@ -92,7 +92,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/soggy-ink-logo.png`,
+        icon: `content/assets/soggy-ink.png`,
       },
     },
     `gatsby-plugin-netlify`,

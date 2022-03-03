@@ -1,7 +1,7 @@
 ---
 title: Unity Terrain
 date: "2021-11-10"
-thumbnail: ./GeirangerfjordTerrainCover.png
+thumbnail: ../../assets/pink.jpg
 description: This is a 3D model of the terrain in Geirangerfjord area in Norway.
 ---
 

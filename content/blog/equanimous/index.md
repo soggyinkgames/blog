@@ -5,6 +5,6 @@ tags: [SoggyInkGames, balanced, water, fire]
 description: Elevating in this saturated environment,learning with every failure and from the ashes WE RISE
 ---
 
-![Don't stop](./BrandBoard.png)
+![Don't stop](../../assets/BrandBoard.png)
 
 ### Impossible is nothing [Anaizing](https://soggyinkgames.com)

@@ -1,7 +1,7 @@
 ---
 title: SOGGY INK
 date: "2021-11-11"
-thumbnail: ./soggyInkGamesLightPurple.png
+thumbnail: ../../assets/soggyLogo.png
 description: Elevating in this saturated environment, soggy from the waves, learning with every failure and from the ashes WE RISE
 ---
 
