@@ -34,26 +34,29 @@ function Bio() {
             />
             <article className="post-content page-template no-image">
               <div className="post-content-body">
-                <h2 id="vision">Yes you can!</h2>
+                {/* <h2 id="vision">Yes you can!</h2> */}
 
-                <h3 id="bio">Who are we?</h3>
+                <h2 id="bio">Who are we?</h2>
+
                 <p>
-                  Hi Im Anaizing I care! Seeing you're here chances are, we have
-                  a lot in common. I am a self taught software engineer, and for
-                  the last few years have been building a platform used by over
-                  500,000 higher ed students to help them succeed in learning
-                  via new interactive ways. However I'm not here to talk about
-                  that. I am the founder of Soggy Ink Games. A studio dedicated
-                  to help you reach you potential and have fun doing it
+                  Hi, Im Anai, founder of Soggy Ink Games I give a shit!
+                  <br></br>
+                  Seeing you're here chances are, we have a few things in
+                  common.
                 </p>
                 <p>
-                  Written by <strong>{author}</strong> who lives and works in
-                  Sydney building useful things.
-                  {` `}
-                  <a href={`https://twitter.com/${social.twitter}`}>
-                    You should follow her on Twitter
-                  </a>
+                  I am a self taught software engineer, and for the last few
+                  years have been building a platform used by over 500,000
+                  higher ed students to help them succeed in learning via new
+                  interactive ways. However I'm not here to talk about that.{" "}
                 </p>
+                <p>
+                  I am the founder of Soggy Ink Games. A game development studio
+                  dedicated to help you reach you potential, while helping
+                  eradicate impostor syndrome, because learning should be fun,
+                  and because <b>you are smart enough.</b>
+                </p>
+
                 <p>
                   It all starts with an idea. It's a big idea, so to get to the
                   WHAT I will first break down the HOW into actionable steps, to
@@ -78,6 +81,14 @@ function Bio() {
                   alt="soggy ink logo with wet ink in the background"
                   style={{ margin: "50px" }}
                 ></img>
+                <p>
+                  Written by <strong>{author}</strong> who lives and works in
+                  Sydney building useful things.
+                  {` `}
+                  <a href={`https://twitter.com/${social.twitter}`}>
+                    You should follow her on Twitter
+                  </a>
+                </p>
               </div>
             </article>
           </Layout>

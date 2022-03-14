@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,8 +8,15 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 import vrPlayer1sig from "../../content/assets/vrPlayer1sig.gif"
+// import styles from "src/utils/css/components/vision.css"
+import "splitting/dist/splitting.css"
+import "splitting/dist/splitting-cells.css"
+import Splitting from "splitting"
 
 const VisionPage = ({ data }, location) => {
+  Splitting({
+    whitespace: true,
+  })
   const siteTitle = data.site.siteMetadata.title
 
   return (
@@ -28,32 +35,25 @@ const VisionPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="vision">Our Vision</h2>
-          {/* <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
-              className="kg-image"
-            />
-            <figcaption>Image By Anaizing Design</figcaption>
-          </figure> */}
-          {/* <h3 id="vision">Vision</h3> */}
+
+          <h3>Yes you can!</h3>
+          <p>It all starts with an idea. It's a big idea...</p>
           <p>
-            It all starts with an idea. It's a big idea, so to get to the WHAT I
-            will first break down the HOW into actionable steps, to be repeated
-            and perfected.
+            I want to help you memorize anything you want, and have fun doing
+            it.
           </p>
           <p>
-            The WHY is easy, innovation, progress, equality, to build, create
-            and engineer something that will help people and HAVE FUN doing it.
-            The path to actualize that dream starts here.
+            Why? That's easy, innovation, progress, equality, to build, create
+            and engineer something that will help people on the path to
+            actualize their dreams.
           </p>
-          <p>The WHAT?</p>
-          <p>Absolutely</p>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <p>
+            Because <b>you are smart enough.</b>
+          </p>
+
+          <p splitting className="char" id="wee">
+            You are the wave.
+          </p>
           <br></br>
           <img
             src={vrPlayer1sig}

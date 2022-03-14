@@ -32,6 +32,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
+    "splitting": "^1.0.6",
     "typeface-alegreya": "^0.0.69",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
