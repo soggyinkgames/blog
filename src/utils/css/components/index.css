@@ -1,12 +1,14 @@
 .parent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  padding-top: 10%;
-}
-.child {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding-left: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 10px;
+}
+.element {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+
+  padding: 10%;
 }
