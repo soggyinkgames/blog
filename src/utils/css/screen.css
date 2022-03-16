@@ -194,13 +194,21 @@ body {
 .site-head-logo {
   flex-shrink: 0;
   display: block;
-  padding: 10px;
   color: var(--color-base);
   font-size: 2.1rem;
   line-height: 1em;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+@media (max-width: 500px) {
+  .site-head-logo {
+    display: none;
+  }
+}
+
+.site-head-logo.text {
+  padding-top: 10px;
 }
 
 .site-head-logo:hover {
@@ -209,9 +217,7 @@ body {
 
 .site-head-logo img {
   display: block;
-  margin-top: 2px;
   width: auto;
-  height: 28px;
 }
 
 .site-head-right {
