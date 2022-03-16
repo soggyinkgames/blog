@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import soggyInk from "../../content/assets/soggy-ink.png"
 
 const Layout = props => {
   const { title, children } = props
@@ -41,7 +42,15 @@ const Layout = props => {
             </ul>
           </nav>
           <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
+            <Link className="" to={"/"}>
+              <img
+                className=""
+                src={soggyInk}
+                alt="soggy ink octopus logo"
+                style={{ width: "60px" }}
+              ></img>
+            </Link>
+            <Link className="site-head-logo text" to={`/`}>
               {title}
             </Link>
           </div>
