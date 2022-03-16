@@ -1,6 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import soggyInk from "../../content/assets/soggy-ink.png"
+import insta from "../../content/assets/instagram.png"
+import github from "../../content/assets/github.png"
+import codepen from "../../content/assets/codepen.png"
+import twitter from "../../content/assets/twitter.png"
 
 const Layout = props => {
   const { title, children } = props
@@ -25,22 +30,64 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
-            <ul className="nav" role="menu">
-              {/* <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
-              </li> */}
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/blog`}>Blog</Link>
-              </li>
-              <li className="nav-vision" role="menuitem">
-                <Link to={`/vision`}>Vision</Link>
-              </li>
-              <li className="nav-whoarewe" role="menuitem">
-                <Link to={`/bio`}>Who are we</Link>
-              </li>
-            </ul>
-          </nav>
+
+          <div className="site-head-right">
+            <div className="social-links">
+              <a
+                href="https://github.com/soggyinkgames"
+                title="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={github}
+                  alt="instagram logo"
+                  style={{ width: "30px" }}
+                ></img>
+              </a>
+              <a
+                href="https://twitter.com/SoggyInkGames"
+                title="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={twitter}
+                  alt="instagram logo"
+                  style={{ width: "30px" }}
+                ></img>
+              </a>
+              <a
+                href="https://codepen.io/soggyinkgames"
+                title="Codepen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={codepen}
+                  alt="instagram logo"
+                  style={{ width: "30px" }}
+                ></img>
+              </a>
+              <a
+                href="https://www.instagram.com/soggyinkgames/"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=""
+                  src={insta}
+                  alt="instagram logo"
+                  style={{ width: "30px" }}
+                ></img>
+              </a>
+            </div>
+          </div>
+
           <div className="site-head-center">
             <Link className="" to={"/"}>
               <img
@@ -54,56 +101,31 @@ const Layout = props => {
               {title}
             </Link>
           </div>
-          <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://github.com/soggyinkgames"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://twitter.com/SoggyInkGames"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-              <a
-                href="https://codepen.io/soggyinkgames"
-                title="Codepen"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Codepen
-              </a>
-              <a
-                href="https://www.instagram.com/soggyinkgames/"
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-              {/* <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link> */}
-            </div>
-          </div>
+
+          <nav id="swup" class="site-head-left">
+            <ul className="nav" role="menu">
+              <li className="nav-whoarewe" role="menuitem">
+                <Link to={`/`}>Home</Link>
+              </li>
+              <li className="nav-whoarewe" role="menuitem">
+                <Link to={`/bio`}>Who are we</Link>
+              </li>
+              <li className="nav-vision" role="menuitem">
+                <Link to={`/vision`}>Vision</Link>
+              </li>
+              <li className="nav-elements" role="menuitem">
+                <Link to={`/blog`}>Dev Zone</Link>
+              </li>
+              <li className="nav-whoarewe hidden" role="menuitem">
+                <Link to={`/elements`}>elements</Link>
+              </li>
+              <li className="nav-whoarewe hidden" role="menuitem">
+                <Link to={`/form`}>yes</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
-
-      {/* <div className="site-face transition-fade">
-        Add unity face here 
-      </div> */}
 
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
