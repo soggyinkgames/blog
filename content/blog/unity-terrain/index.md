@@ -5,7 +5,7 @@ thumbnail: ../../assets/pink.jpg
 description: This is a 3D model of the terrain in Geirangerfjord area in Norway.
 ---
 
-I built this terrain using Unity and Photoshop. It is a accurate model of the land using height maps and the new Terrauin Builder Tool in UniUnity
+I built the terrain below using Unity and Photoshop. It is a accurate model of the land using height maps and the new Terrauin Builder Tool in UniUnity
 
 ![Cactus](./Geirangerfjorden.jpg)
 

@@ -7,4 +7,4 @@ description: Elevating in this saturated environment,learning with every failure
 
 ![Don't stop](../../assets/BrandBoard.png)
 
-### Impossible is nothing [Anaizing](https://soggyinkgames.com)
+### Impossible is nothing [Anaizing](https://soggyinkgames.com/bio)
