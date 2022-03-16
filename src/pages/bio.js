@@ -21,9 +21,9 @@ function Bio() {
         const { author, social, title } = data.site.siteMetadata
         // const siteTitle = data.site.siteMetadata.title
         return (
-          <Layout title={title}>
+          <Layout title={"Soggy ink games"}>
             <SEO
-              title="Vision"
+              title="Bio"
               keywords={[
                 `blog`,
                 `soggy-ink-games`,
@@ -34,15 +34,15 @@ function Bio() {
             />
             <article className="post-content page-template no-image">
               <div className="post-content-body">
-                {/* <h2 id="vision">Yes you can!</h2> */}
-
-                <h2 id="bio">Who are we?</h2>
+                <h2 id="bio">introducing the soggy ink team</h2>
 
                 <p>
-                  Hi, Im Anai, founder of Soggy Ink Games I give a shit!
+                  Hi, Im Anai, founder of Soggy Ink Games, and Im here to change
+                  the game!
                   <br></br>
                   Seeing you're here chances are, we have a few things in
-                  common.
+                  common... (big dreams, ideas, high achiever continuously
+                  battling impostor syndrome)
                 </p>
                 <p>
                   I am a self taught software engineer, and for the last few
@@ -51,31 +51,28 @@ function Bio() {
                   interactive ways. However I'm not here to talk about that.{" "}
                 </p>
                 <p>
-                  I am the founder of Soggy Ink Games. A game development studio
-                  dedicated to help you reach you potential, while helping
-                  eradicate impostor syndrome, because learning should be fun,
-                  and because <b>you are smart enough.</b>
+                  I want to see everyone thrive, I want you to believe in
+                  yourself, have fun and keep reaching higher than you ever
+                  thought possible, to build your future, the future we all
+                  deserve... while enjoying the present moment.
                 </p>
 
+                <p>Welcome to Soggy Ink games!</p>
                 <p>
-                  It all starts with an idea. It's a big idea, so to get to the
-                  WHAT I will first break down the HOW into actionable steps, to
-                  be repeated and perfected.
+                  We are building a game to help you memorize anything you want.
+                  We are dedicated to help you reach your potential, while
+                  helping eradicate impostor syndrome, because learning should
+                  be fun, and because <b>you are smart enough.</b>
                 </p>
                 <p>
-                  The WHY is easy, innovation, progress, equality, to build,
+                  The WHY is easy, equality, innovation, progress, to build,
                   create and engineer something that will help people and HAVE
                   FUN doing it. The path to actualize that dream starts here.
                 </p>
-                <p>The WHAT?</p>
+                <p>To change the game?</p>
                 <p>Absolutely</p>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+
                 <img
                   src={vrPlayer1sig}
                   alt="soggy ink logo with wet ink in the background"
