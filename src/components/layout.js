@@ -104,10 +104,10 @@ const Layout = props => {
 
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              <li className="nav-whoarewe" role="menuitem">
+              <li className="nav-home" role="menuitem">
                 <Link to={`/`}>Home</Link>
               </li>
-              <li className="nav-whoarewe" role="menuitem">
+              <li className="nav-bio" role="menuitem">
                 <Link to={`/bio`}>Who are we</Link>
               </li>
               <li className="nav-vision" role="menuitem">

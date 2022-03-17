@@ -53,10 +53,12 @@ const FormPage = ({ data }, location) => {
               <div className="col-12">
                 <select name="demo-category" id="demo-category">
                   <option value> Why?</option>
-                  <option value={1}>I want to Play test</option>
-                  <option value={1}>Why not!</option>
-                  <option value={1}>I want to work with soggy ink</option>
-                  <option value={1}>I want to Invest</option>
+                  <option value={"playtest"}>I want to Play test</option>
+                  <option value={"whynot"}>Why not!</option>
+                  <option value={"employee"}>
+                    I want to work with soggy ink
+                  </option>
+                  <option value={"investor"}>I want to Invest</option>
                 </select>
               </div>
               {/* Break 
