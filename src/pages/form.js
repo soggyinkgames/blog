@@ -28,7 +28,10 @@ const FormPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="forms">Let me play</h2>
-          <form method="post" action="#">
+          <form
+            method="POST"
+            action="https://getform.io/f/c181023c-b611-4c8d-8084-d41f0977f5ca"
+          >
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
