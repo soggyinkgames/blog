@@ -76,7 +76,7 @@ function Bio() {
                 <img
                   src={vrPlayer1sig}
                   alt="soggy ink logo with wet ink in the background"
-                  style={{ margin: "50px" }}
+                  style={{ padding: "50px" }}
                 ></img>
                 <p>
                   Written by <strong>{author}</strong> who lives and works in

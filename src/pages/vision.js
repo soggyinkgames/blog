@@ -48,7 +48,7 @@ const VisionPage = ({ data }, location) => {
           <img
             src={vrPlayer1sig}
             alt="soggy ink logo with wet ink in the background"
-            style={{ margin: "50px" }}
+            style={{ padding: "50px" }}
           ></img>
         </div>
       </article>
