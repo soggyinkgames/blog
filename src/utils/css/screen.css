@@ -30,6 +30,12 @@ body {
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
+
+  background-image: url("https://res.cloudinary.com/soggy-ink-games/image/upload/v1647510226/pexels-aleksandar-pasaric-1820770_bevfuu.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center calc(100% + 100px);
+  background-size: cover;
 }
 
 .img {
@@ -286,7 +292,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     height: 40px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0) !important;
     z-index: -1;
     transition: all 0.4s ease-out;
     overflow: hidden;
@@ -603,6 +609,7 @@ body {
 .post-content-body {
   font-size: 1.9rem;
   line-height: 1.65em;
+  background: #000;
 }
 @media (max-width: 500px) {
   .post-content-body {

@@ -17,61 +17,52 @@ class Main extends React.Component {
         <SEO title={siteTitle} />
         <div className="parent">
           <img
-            src={vrPlayer1sig}
+            src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1647499361/equanimous-flyer.png"
             alt="soggy ink logo with wet ink in the background"
-            style={{ margin: "10px" }}
+            style={{ margin: "10px", maxHeight: "90vh", paddingTop: "50px" }}
           ></img>
-          <div className="element">
-            <p>
-              What happens when dreamers take action, and have fun doing it?
-              What are you really capable of?
-            </p>
-            {/* 
-            <a href="/form" className="button">
-            Lets Play
-            </a> 
-            */}
-          </div>
         </div>
-        {/*
+
         <div className="parent">
-          <div className="element">
-            <img
-              src={vrPlayer1sig}
-              alt="soggy ink logo with wet ink in the background"
-              style={{ margin: "10px" }}
-            ></img>
-          </div>
-
+          <span className="element"></span>
           <div className="element">
             <p>
               What happens when dreamers take action, and have fun doing it?
               What are you really capable of?
             </p>
-            <a href="/form" className="button">
-              Learn More
+
+            <a
+              href="/form"
+              className="button primary"
+              style={{ margin: "0 10%" }}
+            >
+              Register to PLAY
             </a>
           </div>
+          <span className="element"></span>
+        </div>
 
-          <div className="element">
-            <img
-              src={vrPlayer1sig}
-              alt="soggy ink logo with wet ink in the background"
-              style={{ margin: "10px" }}
-            ></img>
-          </div>
-
-          <div className="element">
-            <p>
-              What happens when dreamers take action, and have fun doing it?
-              What are you really capable of?
-            </p>
-            <a href="/form" className="button">
-              Learn More
-            </a>
-          </div>
-          </div>
-          */}
+        {/* 
+  <div className="parent">
+    <div className="element">
+      <img
+        src={vrPlayer1sig}
+        alt="soggy ink logo with wet ink in the background"
+        style={{ margin: "10px" }}
+      ></img>
+    </div>
+    <div className="element">
+      <p>
+        What happens when dreamers take action, and have fun doing it?
+        What are you really capable of?
+      </p>
+      <a href="/form" className="button">
+        Learn More
+      </a>
+    </div>
+  </div>
+  
+  */}
       </Layout>
     )
   }

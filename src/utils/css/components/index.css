@@ -3,6 +3,8 @@
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
 }
 .element {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -11,4 +13,7 @@
   grid-template-rows: repeat(2, 300px);
 
   padding: 10%;
+}
+img {
+  justify-self: center;
 }
