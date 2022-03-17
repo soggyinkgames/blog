@@ -609,7 +609,10 @@ body {
 .post-content-body {
   font-size: 1.9rem;
   line-height: 1.65em;
-  background: #000;
+  background: var(--color-bg);
+  box-shadow: 0 8px 8px -2px var(--color-sub-base);
+
+  padding: 30px;
 }
 @media (max-width: 500px) {
   .post-content-body {
