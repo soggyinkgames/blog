@@ -113,10 +113,10 @@ const Layout = props => {
               <li className="nav-vision" role="menuitem">
                 <Link to={`/vision`}>Vision</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              <li className="nav-blog" role="menuitem">
                 <Link to={`/blog`}>Dev Zone</Link>
               </li>
-              <li className="nav-whoarewe hidden" role="menuitem">
+              <li className="nav-elements hidden" role="menuitem">
                 <Link to={`/elements`}>elements</Link>
               </li>
               <li className="nav-whoarewe hidden" role="menuitem">

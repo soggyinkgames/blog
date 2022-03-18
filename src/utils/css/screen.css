@@ -25,7 +25,6 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-  /* font-family: 'Muli', sans-serif; */
   font-family: var(--font-sans-serif);
   background: var(--color-bg);
   transition: background 0.3s ease-out;
@@ -34,7 +33,7 @@ body {
   background-image: url("https://res.cloudinary.com/soggy-ink-games/image/upload/v1647510226/pexels-aleksandar-pasaric-1820770_bevfuu.jpg");
   min-height: 100%;
   background-repeat: no-repeat;
-  background-position: center calc(100% + 100px);
+  background-position: center center;
   background-size: cover;
 }
 
@@ -142,6 +141,9 @@ body {
 .site-head {
   position: relative;
   z-index: 300;
+  background-color: var(--color-bg);
+  box-shadow: 0 4px 4px -2px #000;
+
   margin-top: -10px;
   font-size: 1.35rem;
 }
@@ -292,7 +294,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     height: 40px;
-    background: rgba(255, 255, 255, 0) !important;
     z-index: -1;
     transition: all 0.4s ease-out;
     overflow: hidden;
