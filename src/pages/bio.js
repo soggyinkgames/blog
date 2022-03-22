@@ -37,40 +37,32 @@ function Bio() {
                 <h2 id="bio">introducing the soggy ink team</h2>
 
                 <p>
-                  Hi, Im Anai, founder of Soggy Ink Games, and Im here to change
-                  the game!
+                  Hi, Im Anai, founder of Soggy Ink Games, building{" "}
+                  <a href="/">EQUANIMOUS</a> and Im here to change the game!
                   <br></br>
                   Seeing you're here chances are, we have a few things in
-                  common... (big dreams, ideas, high achiever continuously
-                  battling impostor syndrome)
+                  common... (big dreams, bigger ideas, a high achiever
+                  continuously battling impostor syndrome)
                 </p>
                 <p>
-                  I am a self taught software engineer, and for the last few
-                  years have been building a platform used by over 500,000
-                  higher ed students to help them succeed in learning via new
-                  interactive ways. However I'm not here to talk about that.{" "}
+                  I am a self taught software engineer, who for the last few
+                  years has been building a platform used by over 630,000 higher
+                  ed students to help them succeed in their learning via new
+                  interactive ways. However I'm not here to talk about that.
                 </p>
                 <p>
                   I want to see everyone thrive, I want you to believe in
                   yourself, have fun and keep reaching higher than you ever
-                  thought possible, to build your future, the future we all
+                  thought possible, to build your future, the one we all
                   deserve... while enjoying the present moment.
+                </p>
+                <p>
+                  ...and I have a <a href="./vision">plan</a>
                 </p>
 
                 <p>Welcome to Soggy Ink games!</p>
-                <p>
-                  We are building a game to help you memorize anything you want.
-                  We are dedicated to help you reach your potential, while
-                  helping eradicate impostor syndrome, because learning should
-                  be fun, and because <b>you are smart enough.</b>
-                </p>
-                <p>
-                  The WHY is easy, equality, innovation, progress, to build,
-                  create and engineer something that will help people and HAVE
-                  FUN doing it. The path to actualize that dream starts here.
-                </p>
-                <p>To change the game?</p>
-                <p>Absolutely</p>
+                <br></br>
+                <p>You are the wave.</p>
                 <br></br>
 
                 <img

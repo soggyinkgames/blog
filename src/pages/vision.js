@@ -31,19 +31,27 @@ const VisionPage = ({ data }, location) => {
           <h3>Yes you can!</h3>
           <p>It all starts with an idea. It's a big idea...</p>
           <p>
-            We want to help you memorize anything you want, and have fun doing
-            it.
+            We are building <a href="/">EQUANIMOUS</a>, a game to help you
+            memorize anything you want. We are dedicated to help you reach your
+            potential, while helping eradicate impostor syndrome, because
+            learning should be fun, and because
           </p>
           <p>
-            Why? That's easy, equality, innovation, progress, to build, create
-            and engineer something that will help people on the path to
-            actualize their dreams.
+            <b>you are smart enough.</b>
           </p>
           <p>
-            Because <b>you are smart enough.</b>
+            Why? That's easy, equality, innovation, progress, to
+            build/create/engineer something that will help people on the path to
+            actualize their dreams, and HAVE FUN doing it.
+          </p>
+          <p>To change the game?</p>
+          <p>Absolutely!</p>
+
+          <p>
+            If you could memorize anything, what would{" "}
+            <a href="/form">you choose?</a>
           </p>
 
-          <p className="char">You are the wave.</p>
           <br></br>
           <img
             className="zoomzoom"
