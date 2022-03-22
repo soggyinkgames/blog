@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import vrPlayer1sig from "../../content/assets/vrPlayer1sig.gif"
+import playerOne from "../../content/assets/playerOne.gif"
 import styles from "../utils/css/components/index.css"
 
 class Main extends React.Component {
@@ -47,7 +47,7 @@ class Main extends React.Component {
   <div className="parent">
     <div className="element">
       <img
-        src={vrPlayer1sig}
+        src={playerOne}
         alt="soggy ink logo with wet ink in the background"
         style={{ margin: "10px" }}
       ></img>

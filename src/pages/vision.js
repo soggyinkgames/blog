@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-import vrPlayer1sig from "../../content/assets/vrPlayer1sig.gif"
+import playerOne from "../../content/assets/playerOne.gif"
 
 const VisionPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
@@ -47,7 +47,7 @@ const VisionPage = ({ data }, location) => {
           <br></br>
           <img
             className="zoomzoom"
-            src={vrPlayer1sig}
+            src={playerOne}
             alt="soggy ink logo with wet ink in the background"
             style={{ padding: "50px" }}
           ></img>

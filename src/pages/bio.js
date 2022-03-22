@@ -11,7 +11,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import vrPlayer1sig from "../../content/assets/vrPlayer1sig.gif"
+import playerOne from "../../content/assets/playerOne.gif"
 
 function Bio() {
   return (
@@ -74,7 +74,7 @@ function Bio() {
                 <br></br>
 
                 <img
-                  src={vrPlayer1sig}
+                  src={playerOne}
                   className="zoomzoom"
                   alt="soggy ink logo with wet ink in the background"
                   style={{ padding: "50px" }}

@@ -141,7 +141,7 @@ const Layout = props => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
+          Love
         </a>
       </footer>
     </div>

@@ -36,7 +36,7 @@ LETS BUILD!
 
 Welcome to the blog- Impossible is nothing.
 
-![Octopus logo, broken tv animation background](content/assets/vrPlayer1sig.gif)
+![Octopus logo, broken tv animation background](content/assets/playerOne.gif)
 
 **Demo: https://soggyinkgames.com**
 
