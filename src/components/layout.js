@@ -32,60 +32,13 @@ const Layout = props => {
           </a>
 
           <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://github.com/soggyinkgames"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="zoomzoom"
-                  src={github}
-                  alt="instagram logo"
-                  style={{ width: "30px" }}
-                ></img>
-              </a>
-              <a
-                href="https://twitter.com/SoggyInkGames"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="zoomzoom"
-                  src={twitter}
-                  alt="instagram logo"
-                  style={{ width: "30px" }}
-                ></img>
-              </a>
-              <a
-                href="https://codepen.io/soggyinkgames"
-                title="Codepen"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="zoomzoom"
-                  src={codepen}
-                  alt="instagram logo"
-                  style={{ width: "30px" }}
-                ></img>
-              </a>
-              <a
-                href="https://www.instagram.com/soggyinkgames/"
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="zoomzoom"
-                  src={insta}
-                  alt="instagram logo"
-                  style={{ width: "30px" }}
-                ></img>
-              </a>
-            </div>
+            <a
+              href="/form"
+              className="button default small"
+              style={{ margin: "0 50%" }}
+            >
+              Register to play
+            </a>
           </div>
 
           <div className="site-head-center">
@@ -105,16 +58,16 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>What</Link>
               </li>
               <li className="nav-bio" role="menuitem">
-                <Link to={`/bio`}>Who are we</Link>
+                <Link to={`/bio`}>Who</Link>
               </li>
               <li className="nav-vision" role="menuitem">
-                <Link to={`/vision`}>Vision</Link>
+                <Link to={`/vision`}>Why</Link>
               </li>
               <li className="nav-blog" role="menuitem">
-                <Link to={`/blog`}>Dev Zone</Link>
+                <Link to={`/blog`}>How</Link>
               </li>
               <li className="nav-elements hidden" role="menuitem">
                 <Link to={`/elements`}>elements</Link>
@@ -134,15 +87,70 @@ const Layout = props => {
       </main>
 
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Love
-        </a>
+        <div>
+          &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
+          &mdash; Built with{" "}
+          <a
+            href="https://gatsbyjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Love
+          </a>
+          <a
+            href="https://github.com/soggyinkgames"
+            title="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="zoomzoom icon"
+              src={github}
+              alt="instagram logo"
+              style={{ width: "30px" }}
+            ></img>
+          </a>
+          <a
+            href="https://twitter.com/SoggyInkGames"
+            title="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="zoomzoom icon"
+              src={twitter}
+              alt="instagram logo"
+              style={{ width: "30px" }}
+            ></img>
+          </a>
+          <a
+            href="https://codepen.io/soggyinkgames"
+            title="Codepen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="zoomzoom icon"
+              src={codepen}
+              alt="instagram logo"
+              style={{ width: "30px" }}
+            ></img>
+          </a>
+          <a
+            href="https://www.instagram.com/soggyinkgames/"
+            title="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="zoomzoom icon"
+              src={insta}
+              alt="instagram logo"
+              style={{ width: "30px" }}
+            ></img>
+          </a>
+        </div>
+        <div className="social-links"></div>
       </footer>
     </div>
   )
