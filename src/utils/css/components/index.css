@@ -17,3 +17,9 @@
 img {
   justify-self: center;
 }
+.zoomzoom {
+  transition: 0.3s;
+}
+.zoomzoom:hover {
+  transform: scale(1.1);
+}

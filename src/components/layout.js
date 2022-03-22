@@ -40,7 +40,7 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className=""
+                  className="zoomzoom"
                   src={github}
                   alt="instagram logo"
                   style={{ width: "30px" }}
@@ -53,7 +53,7 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className=""
+                  className="zoomzoom"
                   src={twitter}
                   alt="instagram logo"
                   style={{ width: "30px" }}
@@ -66,7 +66,7 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className=""
+                  className="zoomzoom"
                   src={codepen}
                   alt="instagram logo"
                   style={{ width: "30px" }}
@@ -79,7 +79,7 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 <img
-                  className=""
+                  className="zoomzoom"
                   src={insta}
                   alt="instagram logo"
                   style={{ width: "30px" }}
@@ -91,7 +91,7 @@ const Layout = props => {
           <div className="site-head-center">
             <Link className="" to={"/"}>
               <img
-                className=""
+                className="zoomzoom"
                 src={soggyInk}
                 alt="soggy ink octopus logo"
                 style={{ width: "60px" }}

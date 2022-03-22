@@ -19,6 +19,7 @@ class Main extends React.Component {
           <img
             src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1647499361/equanimous-flyer.png"
             alt="soggy ink logo with wet ink in the background"
+            className="zoomzoom"
             style={{ margin: "10px", maxHeight: "90vh", paddingTop: "50px" }}
           ></img>
         </div>

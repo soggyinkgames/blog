@@ -75,6 +75,7 @@ function Bio() {
 
                 <img
                   src={vrPlayer1sig}
+                  className="zoomzoom"
                   alt="soggy ink logo with wet ink in the background"
                   style={{ padding: "50px" }}
                 ></img>

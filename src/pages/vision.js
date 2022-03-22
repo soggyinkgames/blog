@@ -46,6 +46,7 @@ const VisionPage = ({ data }, location) => {
           <p className="char">You are the wave.</p>
           <br></br>
           <img
+            className="zoomzoom"
             src={vrPlayer1sig}
             alt="soggy ink logo with wet ink in the background"
             style={{ padding: "50px" }}
