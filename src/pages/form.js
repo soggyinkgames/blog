@@ -38,7 +38,7 @@ const FormPage = ({ data }, location) => {
                   type="text"
                   name="demo-name"
                   id="demo-name"
-                  placeholder="Name"
+                  placeholder="Your Name"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
@@ -88,7 +88,7 @@ const FormPage = ({ data }, location) => {
               <label htmlFor="demo-priority-high">High</label>
             </div>
              */}
-              <div className="col-6 col-12-small">
+              {/* <div className="col-6 col-12-small">
                 <input type="checkbox" id="demo-copy" name="demo-copy" />
                 <label htmlFor="demo-copy">Email me a copy</label>
               </div>
@@ -100,7 +100,7 @@ const FormPage = ({ data }, location) => {
                   defaultChecked
                 />
                 <label htmlFor="demo-human">I am a human</label>
-              </div>
+              </div> */}
               {/* Break */}
               <div className="col-12">
                 <textarea
