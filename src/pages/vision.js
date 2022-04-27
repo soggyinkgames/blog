@@ -31,13 +31,15 @@ const VisionPage = ({ data }, location) => {
           <h3>Yes you can!</h3>
           <p>It all starts with an idea. It's a big idea...</p>
           <p>
-            We are building <a href="/">EQUANIMOUS</a>, a game to help you
-            memorize anything you want. We are dedicated to help you reach your
-            potential, while helping eradicate impostor syndrome, because
-            learning should be fun, and because
+            Memorizing things is hard and if you're cramming for an exam it can
+            also be really stressful, so we are building{" "}
+            <a href="/">EQUANIMOUS</a>, a game to help you memorize anything you
+            want. We are dedicated to help you reach your potential, while
+            helping eradicate impostor syndrome, because learning should be fun,
+            and because
           </p>
           <p>
-            <b>you are smart enough.</b>
+            <b>YOU ARE SMART ENOUGH.</b>
           </p>
           <p>
             Why? That's easy, equality, innovation, progress, to
