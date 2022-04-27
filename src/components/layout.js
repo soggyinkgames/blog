@@ -33,10 +33,13 @@ const Layout = props => {
 
           <div className="site-head-right">
             <a
-              href="/form"
-              className="button default small"
-              style={{ margin: "0 50%" }}
+              href="https://soggyinkgames.gumroad.com/l/wkkip"
+              className="button primary small  zoomzoom"
+              style={{ marginRight: "10px", marginLeft: "10px" }}
             >
+              Pre-Order
+            </a>
+            <a href="/form" className="button default small zoomzoom">
               Register to play
             </a>
           </div>
@@ -44,10 +47,10 @@ const Layout = props => {
           <div className="site-head-center">
             <Link className="" to={"/"}>
               <img
-                className="zoomzoom"
-                src={soggyInk}
+                className="zoomzoom soggy"
+                src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1651059402/soggyInkGamesSMALL_axleob.png"
                 alt="soggy ink octopus logo"
-                style={{ width: "60px" }}
+                style={{ width: "50px" }}
               ></img>
             </Link>
             <Link className="site-head-logo text" to={`/`}>
