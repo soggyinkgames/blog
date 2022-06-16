@@ -607,16 +607,34 @@ body {
 }
 
 .post-content-body {
+  background: linear-gradient(45deg, #8d52fb, #ff66c4, #00acd2, #effef6);
+  background-size: 400% 400%;
+  animation: gradient 9s ease infinite;
+
   font-size: 1.9rem;
   line-height: 1.65em;
-  background: var(--color-bg);
-  box-shadow: 0 8px 8px -2px var(--color-sub-base);
+  border: 5px solid #fff;
+  border-radius: 20px;
+  box-shadow: 4px 8px 8px -2px var(--color-sub-base);
 
   padding: 30px;
 }
 @media (max-width: 500px) {
   .post-content-body {
     font-size: 1.7rem;
+    margin: 5%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
