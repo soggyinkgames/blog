@@ -7,18 +7,28 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import pinkMe from "../../content/assets/pinkMe.jpg"
 import playerOne from "../../content/assets/playerOne.gif"
+
+const RoundWrapper = styled.div`
+  border: 4px solid #fff;
+  border-radius: 20px;
+  padding: 30px;
+  max-height: 80vh;
+}
+`
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social, title } = data.site.siteMetadata
+        const { author, social } = data.site.siteMetadata
         // const siteTitle = data.site.siteMetadata.title
         return (
           <Layout title={"Soggy ink games"}>
@@ -50,6 +60,18 @@ function Bio() {
                   ed students to help them succeed in their learning via new
                   interactive ways. However I'm not here to talk about that.
                 </p>
+                <RoundWrapper>
+                  <img
+                    src={pinkMe}
+                    className="zoomzoom pinkMe"
+                    alt="soggy ink logo with wet ink in the background"
+                    style={{ margin: "0 70px 0 70px " }}
+                  ></img>
+                  Name: Anai Araya <br></br>
+                  Role: Founder/CEO <br></br>
+                  Fave Game: WoW <br></br>
+                  Fave quote: "not here to fuck spiders"
+                </RoundWrapper>
                 <p>
                   I want to see everyone thrive, I want you to believe in
                   yourself, have fun and keep reaching higher than you ever
