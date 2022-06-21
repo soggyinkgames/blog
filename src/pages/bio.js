@@ -19,6 +19,7 @@ const RoundWrapper = styled.div`
   border: 4px solid #fff;
   border-radius: 20px;
   padding: 50px;
+
   @media (max-width: 420px) {
     padding: 10px;
     font-size: 0.8em;
@@ -27,8 +28,8 @@ const RoundWrapper = styled.div`
   font-size: 0.8em;
 
   .pinkMe {
-    border-radius: 20px;
-    margin: 0 auto;
+    display: block;
+    margin: auto;
   }
 `
 
@@ -75,6 +76,7 @@ function Bio() {
                     src={pinkMe}
                     className="zoomzoom pinkMe"
                     alt="soggy ink logo with wet ink in the background"
+                    style={{ margin: "0 auto" }}
                   ></img>
                   <br></br>
                   <br></br>
