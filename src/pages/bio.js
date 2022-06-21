@@ -70,7 +70,8 @@ function Bio() {
                   Name: Anai Araya <br></br>
                   Role: Founder/CEO <br></br>
                   Fave Game: WoW <br></br>
-                  Fave quote: "not here to fuck spiders"
+                  Fave quote: "...Failure does not mean GAME OVER, it means try
+                  again with EXPERIENCE"
                 </RoundWrapper>
                 <p>
                   I want to see everyone thrive, I want you to believe in
