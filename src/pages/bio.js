@@ -18,9 +18,18 @@ import playerOne from "../../content/assets/playerOne.gif"
 const RoundWrapper = styled.div`
   border: 4px solid #fff;
   border-radius: 20px;
-  padding: 30px;
+  padding: 50px;
+  @media (max-width: 420px) {
+    padding: 10px;
+    font-size: 0.8em;
+  }
   max-height: 80vh;
-}
+  font-size: 0.8em;
+
+  .pinkMe {
+    border-radius: 20px;
+    margin: 0 auto;
+  }
 `
 
 function Bio() {
@@ -45,6 +54,7 @@ function Bio() {
             <article className="post-content page-template no-image">
               <div className="post-content-body">
                 <h2 id="bio">introducing the soggy ink team</h2>
+                <br></br>
 
                 <p>
                   Hi, Im Anai, founder of Soggy Ink Games, building{" "}
@@ -65,17 +75,19 @@ function Bio() {
                     src={pinkMe}
                     className="zoomzoom pinkMe"
                     alt="soggy ink logo with wet ink in the background"
-                    style={{ margin: "0 70px 0 70px " }}
                   ></img>
+                  <br></br>
+                  <br></br>
                   Name: Anai Araya <br></br>
                   Role: Founder/CEO <br></br>
-                  Fave Game: WoW <br></br>
                   Fave quote: "...Failure does not mean GAME OVER, it means try
                   again with EXPERIENCE"
+                  <br></br>
+                  Fave Game: WoW <br></br>
                 </RoundWrapper>
                 <p>
-                  I want to see everyone thrive, I want you to believe in
-                  yourself, have fun and keep reaching higher than you ever
+                  <br></br>I want to see everyone thrive, I want you to believe
+                  in yourself, have fun and keep reaching higher than you ever
                   thought possible, to build your future, the one we all
                   deserve... while enjoying the present moment.
                 </p>
@@ -92,9 +104,10 @@ function Bio() {
                   src={playerOne}
                   className="zoomzoom"
                   alt="soggy ink logo with wet ink in the background"
-                  style={{ padding: "50px" }}
                 ></img>
                 <p>
+                  <br></br>
+                  <br></br>
                   Written by <strong>{author}</strong> who lives and works in
                   Sydney building useful things.
                   {` `}
