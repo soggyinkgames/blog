@@ -80,12 +80,14 @@ function Bio() {
                   ></img>
                   <br></br>
                   <br></br>
-                  Name: Anai Araya <br></br>
-                  Role: Founder/CEO <br></br>
-                  Fave quote: "...Failure does not mean GAME OVER, it means try
-                  again with EXPERIENCE"
-                  <br></br>
-                  Fave Game: WoW <br></br>
+                  {/** 
+                  <p>Name: Anai Araya</p>
+                  <p>Role: Founder/CEO </p>
+                  <p>Fave quote: "...Failure does not mean GAME OVER, it means try
+                  again with EXPERIENCE"</p>
+                  <p>Fave Game: WoW</p>
+                
+                */}
                 </RoundWrapper>
                 <p>
                   <br></br>I want to see everyone thrive, I want you to believe
