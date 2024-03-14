@@ -12,8 +12,6 @@ import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import pinkMe from "../../content/assets/pinkMe.jpg"
-import anai from "../../content/assets/anai.png"
 import natalie from "../../content/assets/natalie.png"
 import alexis from "../../content/assets/alexis.png"
 
@@ -89,7 +87,7 @@ function Bio() {
                 <br></br>
 
                 <p>
-                  Hi, Im Anai, founder of Soggy Ink Games, building{" "}
+                  Hi, Im Ian, founder of Soggy Ink Games, building{" "}
                   <a href="/">EQUANIMOUS</a> and Im here to change the game!
                   <br></br>
                   Seeing you're here chances are, we have a few things in
@@ -115,7 +113,7 @@ function Bio() {
 
                 <RoundWrapper>
                   <img
-                    src={anai}
+                    src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1710399360/ian-bio-card_srm7fr.png"
                     className="zoomzoom pinkMe"
                     alt="soggy ink logo with wet ink in the background"
                     style={{ margin: "0 auto" }}
