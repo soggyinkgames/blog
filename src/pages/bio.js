@@ -113,7 +113,7 @@ function Bio() {
 
                 <RoundWrapper>
                   <img
-                    src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1710399360/ian-bio-card_srm7fr.png"
+                    src="https://res.cloudinary.com/soggy-ink-games/image/upload/v1710399360/me/ian-bio-card_srm7fr.png"
                     className="zoomzoom pinkMe"
                     alt="soggy ink logo with wet ink in the background"
                     style={{ margin: "0 auto" }}
